@@ -300,7 +300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &818796124
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -362,7 +362,7 @@ Transform:
   m_GameObject: {fileID: 818796123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.55, y: -2.5, z: 0}
+  m_LocalPosition: {x: 3.25, y: 1.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -380,10 +380,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363621b705442024c90fa0f8ef1e4fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 0
-  _maxMana: 0
-  _currentHealth: 0
-  _currentMana: 0
+  _name: Moris
+  _maxHealth: 100
+  _maxMana: 100
+  _currentHealth: 50
+  _currentMana: 50
 --- !u!1 &2113584836
 GameObject:
   m_ObjectHideFlags: 0

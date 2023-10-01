@@ -15,7 +15,7 @@ public class BattleHUDHandler : MonoBehaviour
     [SerializeField] private BattleHUD parentHUD;
 
     private void InstantiateHUD(Stats stats){
-        BattleHUD hud = Instantiate(parentHUD, this.transform);
+        BattleHUD hud = Instantiate(parentHUD, transform);
         hud.setStats(stats);
     }
 }
