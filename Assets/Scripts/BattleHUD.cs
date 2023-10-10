@@ -11,8 +11,8 @@ public class BattleHUD : MonoBehaviour
 
     public void setStats(Stats stats){
         _stats = stats;
-        GetComponent<RectTransform>().anchoredPosition = new Vector2(_stats.transform.position.x, _stats.transform.position.y);
         _displayText = GetComponentInChildren<TextMeshProUGUI>();
+        GetComponent<RectTransform>().anchoredPosition = new Vector2(_stats.transform.position.x * 100 + 40, (_stats.transform.position.y)*100 + 140);
         validateText();
     }
 
