@@ -17,5 +17,6 @@ public class BattleHUDHandler : MonoBehaviour
     private void InstantiateHUD(Stats stats){
         BattleHUD hud = Instantiate(parentHUD, transform);
         hud.setStats(stats);
+        hud.name = stats.cName() + " Stats";
     }
 }
