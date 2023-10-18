@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 26085595}
   - component: {fileID: 26085594}
   m_Layer: 0
-  m_Name: MC (1)
+  m_Name: Maurice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -420,6 +421,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093bb1e52eb22f24c8f67478804008ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacker: {fileID: 26085594}
+  receiver: {fileID: 1406408797}
 --- !u!1 &569564140
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +447,7 @@ GameObject:
   - component: {fileID: 569564143}
   - component: {fileID: 569564142}
   m_Layer: 0
-  m_Name: MC (2)
+  m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -534,7 +549,7 @@ GameObject:
   - component: {fileID: 818796124}
   - component: {fileID: 818796126}
   m_Layer: 0
-  m_Name: MC
+  m_Name: Slamm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +766,7 @@ GameObject:
   - component: {fileID: 1406408798}
   - component: {fileID: 1406408797}
   m_Layer: 0
-  m_Name: MC (3)
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

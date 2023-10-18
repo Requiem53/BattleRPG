@@ -9,6 +9,14 @@ public class BattleHUD : MonoBehaviour
     private Stats _stats;
     private TextMeshProUGUI _displayText;
 
+    private void OnEnable(){
+        Stats.OnDamage += validateText;
+    }
+
+    private void OnDisable(){
+        Stats.OnDamage -= validateText;
+    }
+
     public void setStats(Stats stats){
         _stats = stats;
         _displayText = GetComponentInChildren<TextMeshProUGUI>();
